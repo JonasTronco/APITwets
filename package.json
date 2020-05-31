@@ -7,9 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonattan infante Vargas",
   "license": "ISC",
   "dependencies": {
-    "twit": "^2.2.11"
+    "amqplib": "^0.5.6",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
   }
 }

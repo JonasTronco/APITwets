@@ -1,0 +1,19 @@
+version: "3"
+
+services: 
+    api:
+        image: apitwit
+
+        depends_on: 
+            - redis
+            - rabitt
+        ports: 
+            - "3000:3000"
+
+    redis:
+        image: redis
+    rabitt:
+        image: rabbitmq
+
+        
+    
